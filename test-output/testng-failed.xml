@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.zhongzheng.selenium.Test.IndexTest">
+        <methods>
+          <include name="tearDownTestBase"/>
+          <include name="setUpTestBase"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- com.zhongzheng.selenium.Test.IndexTest -->
+      <class name="com.zhongzheng.selenium.Test.FlipTest">
+        <methods>
+          <include name="tearDownTestBase"/>
+          <include name="setUpTestBase"/>
+        </methods>
+      </class> <!-- com.zhongzheng.selenium.Test.FlipTest -->
+      <class name="com.zhongzheng.selenium.Test.InsertTest">
+        <methods>
+          <include name="tearDownTestBase"/>
+          <include name="setUpTestBase"/>
+        </methods>
+      </class> <!-- com.zhongzheng.selenium.Test.InsertTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

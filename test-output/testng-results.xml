@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="134254" started-at="2015-09-01T08:40:43Z" finished-at="2015-09-01T08:42:58Z">
+    <groups>
+      <group name="BVT">
+        <method signature="FlipTest.flipTest()[pri:0, instance:com.zhongzheng.selenium.Test.FlipTest@62e136d3]" name="flipTest" class="com.zhongzheng.selenium.Test.FlipTest"/>
+        <method signature="IndexTest.searchTest()[pri:0, instance:com.zhongzheng.selenium.Test.IndexTest@c8e4bb0]" name="searchTest" class="com.zhongzheng.selenium.Test.IndexTest"/>
+        <method signature="InsertTest.insertTest()[pri:0, instance:com.zhongzheng.selenium.Test.InsertTest@18a70f16]" name="insertTest" class="com.zhongzheng.selenium.Test.InsertTest"/>
+      </group> <!-- BVT -->
+      <group name="BF">
+        <method signature="FlipTest.flipTest()[pri:0, instance:com.zhongzheng.selenium.Test.FlipTest@62e136d3]" name="flipTest" class="com.zhongzheng.selenium.Test.FlipTest"/>
+        <method signature="IndexTest.searchTest()[pri:0, instance:com.zhongzheng.selenium.Test.IndexTest@c8e4bb0]" name="searchTest" class="com.zhongzheng.selenium.Test.IndexTest"/>
+        <method signature="InsertTest.insertTest()[pri:0, instance:com.zhongzheng.selenium.Test.InsertTest@18a70f16]" name="insertTest" class="com.zhongzheng.selenium.Test.InsertTest"/>
+      </group> <!-- BF -->
+      <group name="CheckIn">
+        <method signature="FlipTest.flipTest()[pri:0, instance:com.zhongzheng.selenium.Test.FlipTest@62e136d3]" name="flipTest" class="com.zhongzheng.selenium.Test.FlipTest"/>
+        <method signature="IndexTest.searchTest()[pri:0, instance:com.zhongzheng.selenium.Test.IndexTest@c8e4bb0]" name="searchTest" class="com.zhongzheng.selenium.Test.IndexTest"/>
+        <method signature="InsertTest.insertTest()[pri:0, instance:com.zhongzheng.selenium.Test.InsertTest@18a70f16]" name="insertTest" class="com.zhongzheng.selenium.Test.InsertTest"/>
+      </group> <!-- CheckIn -->
+      <group name="ES">
+        <method signature="FlipTest.flipTest()[pri:0, instance:com.zhongzheng.selenium.Test.FlipTest@62e136d3]" name="flipTest" class="com.zhongzheng.selenium.Test.FlipTest"/>
+        <method signature="IndexTest.searchTest()[pri:0, instance:com.zhongzheng.selenium.Test.IndexTest@c8e4bb0]" name="searchTest" class="com.zhongzheng.selenium.Test.IndexTest"/>
+        <method signature="InsertTest.insertTest()[pri:0, instance:com.zhongzheng.selenium.Test.InsertTest@18a70f16]" name="insertTest" class="com.zhongzheng.selenium.Test.InsertTest"/>
+      </group> <!-- ES -->
+    </groups>
+    <test name="Default test" duration-ms="134254" started-at="2015-09-01T08:40:43Z" finished-at="2015-09-01T08:42:58Z">
+      <class name="com.zhongzheng.selenium.Test.InsertTest">
+        <test-method status="PASS" signature="setUpTestBase(org.testng.ITestContext)[pri:0, instance:com.zhongzheng.selenium.Test.InsertTest@18a70f16]" name="setUpTestBase" is-config="true" duration-ms="28433" started-at="2015-09-01T16:40:43Z" finished-at="2015-09-01T16:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@dcfda20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestBase -->
+        <test-method status="PASS" signature="insertTest()[pri:0, instance:com.zhongzheng.selenium.Test.InsertTest@18a70f16]" name="insertTest" duration-ms="25137" started-at="2015-09-01T16:41:12Z" finished-at="2015-09-01T16:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertTest -->
+        <test-method status="PASS" signature="tearDownTestBase()[pri:0, instance:com.zhongzheng.selenium.Test.InsertTest@18a70f16]" name="tearDownTestBase" is-config="true" duration-ms="1143" started-at="2015-09-01T16:41:37Z" finished-at="2015-09-01T16:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestBase -->
+      </class> <!-- com.zhongzheng.selenium.Test.InsertTest -->
+      <class name="com.zhongzheng.selenium.Test.FlipTest">
+        <test-method status="PASS" signature="setUpTestBase(org.testng.ITestContext)[pri:0, instance:com.zhongzheng.selenium.Test.FlipTest@62e136d3]" name="setUpTestBase" is-config="true" duration-ms="24674" started-at="2015-09-01T16:41:38Z" finished-at="2015-09-01T16:42:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@dcfda20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestBase -->
+        <test-method status="PASS" signature="flipTest()[pri:0, instance:com.zhongzheng.selenium.Test.FlipTest@62e136d3]" name="flipTest" duration-ms="19129" started-at="2015-09-01T16:42:03Z" finished-at="2015-09-01T16:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipTest -->
+        <test-method status="PASS" signature="tearDownTestBase()[pri:0, instance:com.zhongzheng.selenium.Test.FlipTest@62e136d3]" name="tearDownTestBase" is-config="true" duration-ms="1217" started-at="2015-09-01T16:42:22Z" finished-at="2015-09-01T16:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestBase -->
+      </class> <!-- com.zhongzheng.selenium.Test.FlipTest -->
+      <class name="com.zhongzheng.selenium.Test.IndexTest">
+        <test-method status="PASS" signature="setUpTestBase(org.testng.ITestContext)[pri:0, instance:com.zhongzheng.selenium.Test.IndexTest@c8e4bb0]" name="setUpTestBase" is-config="true" duration-ms="24448" started-at="2015-09-01T16:42:23Z" finished-at="2015-09-01T16:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@dcfda20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestBase -->
+        <test-method status="PASS" signature="searchTest()[pri:0, instance:com.zhongzheng.selenium.Test.IndexTest@c8e4bb0]" name="searchTest" duration-ms="9230" started-at="2015-09-01T16:42:47Z" finished-at="2015-09-01T16:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDownTestBase()[pri:0, instance:com.zhongzheng.selenium.Test.IndexTest@c8e4bb0]" name="tearDownTestBase" is-config="true" duration-ms="828" started-at="2015-09-01T16:42:57Z" finished-at="2015-09-01T16:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestBase -->
+      </class> <!-- com.zhongzheng.selenium.Test.IndexTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

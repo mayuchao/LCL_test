@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="1">
+  <listeners>
+    <listener class-name="com.baidu.selenium.listener.LogSeperateTestListener"></listener>
+    <listener class-name="com.baidu.selenium.listener.ErrorSpecScreenshotListener"></listener>
+    <listener class-name="com.baidu.selenium.autoscreenshot.AutoScreenshotListener"></listener>
+    <listener class-name="com.baidu.selenium.listener.SingleTestJUnitReporter"></listener>
+  </listeners>
+  <test name="TEST" preserve-order="false">
+	<groups>
+		<run>
+			<include name="CheckIn"></include>
+			<include name="BVT"></include>
+			<include name="ES"></include>
+			<include name="BF"></include>
+			<exclude name="DEPRECATED"></exclude>
+		</run>
+	</groups>
+    <packages>
+    	<package name="com.*"></package>
+    </packages>
+  </test>
+</suite>

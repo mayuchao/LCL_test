@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ExternalJARs"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/seleniumJRE"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="lib-1.0.3/selenium-server-standalone-2.21.0.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/logback-classic-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/logback-core-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-aop-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-beans-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-context-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-context-support-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-core-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-jdbc-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-modules-cache.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-orm-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-test-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-tx-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-web-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/spring-webmvc-2.5.6.jar"/>
+	<classpathentry kind="lib" path="lib-1.0.3/testng-6.5.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib-1.0.3/seleniumframework-1.0.3.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

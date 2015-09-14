@@ -1,0 +1,212 @@
+[0.000][INFO]:      ChromeDriver 23.0.1240.0 D:\chromedriver.exe
+[0.103][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.103][INFO]:      Launching chrome: "C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[0.426][INFO]:      Connected to Chrome successfully. Version: 22.0.1229.79
+[0.439][FINE]:      Command received (/session/fe2d421dfe85371a84648f600cf5bc95)
+[0.439][FINE]:      Command finished (/session/fe2d421dfe85371a84648f600cf5bc95) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "22.0.1229.79",
+      "webStorageEnabled": true
+   }
+}
+
+[0.451][FINE]:      Command received (/session/fe2d421dfe85371a84648f600cf5bc95/timeouts/implicit_wait) with params {
+   "ms": 5
+}
+
+[0.451][FINER]:     Waiting for all views to stop loading...
+[0.451][FINER]:     Done waiting for all views to stop loading
+[0.452][FINER]:     Waiting for all views to stop loading...
+[0.452][FINER]:     Done waiting for all views to stop loading
+[0.452][FINE]:      Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/timeouts/implicit_wait) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[0.482][FINE]:      Command received (/session/fe2d421dfe85371a84648f600cf5bc95/window/current/maximize) with params {
+   "windowHandle": "current"
+}
+
+[0.482][FINER]:     Waiting for all views to stop loading...
+[0.482][FINER]:     Done waiting for all views to stop loading
+[0.486][FINER]:     Waiting for all views to stop loading...
+[0.493][FINER]:     Done waiting for all views to stop loading
+[0.493][FINE]:      Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/window/current/maximize) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.528][FINE]:      Command received (/session/fe2d421dfe85371a84648f600cf5bc95/url) with params {
+   "url": "http://music.baidu.com"
+}
+
+[1.528][FINER]:     Waiting for all views to stop loading...
+[1.528][FINER]:     Done waiting for all views to stop loading
+[46.874][FINER]:    Waiting for all views to stop loading...
+[46.879][FINER]:    Done waiting for all views to stop loading
+[46.879][FINE]:     Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/url) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[46.919][FINE]:     Command received (/session/fe2d421dfe85371a84648f600cf5bc95/window_handle)
+[46.919][FINER]:    Waiting for all views to stop loading...
+[46.919][FINER]:    Done waiting for all views to stop loading
+[46.919][FINER]:    Waiting for all views to stop loading...
+[46.919][FINER]:    Done waiting for all views to stop loading
+[46.919][FINE]:     Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/window_handle) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": "f1-2"
+}
+
+[47.228][FINE]:     Command received (/session/fe2d421dfe85371a84648f600cf5bc95/execute) with params {
+   "args": [  ],
+   "script": "return !!document['readyState'];"
+}
+
+[47.228][FINER]:    Waiting for all views to stop loading...
+[47.231][FINER]:    Done waiting for all views to stop loading
+[47.237][FINER]:    Waiting for all views to stop loading...
+[47.238][FINER]:    Done waiting for all views to stop loading
+[47.238][FINE]:     Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/execute) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": true
+}
+
+[47.243][FINE]:     Command received (/session/fe2d421dfe85371a84648f600cf5bc95/execute) with params {
+   "args": [  ],
+   "script": "return 'complete' == document.readyState;"
+}
+
+[47.243][FINER]:    Waiting for all views to stop loading...
+[47.249][FINER]:    Done waiting for all views to stop loading
+[47.252][FINER]:    Waiting for all views to stop loading...
+[47.252][FINER]:    Done waiting for all views to stop loading
+[47.253][FINE]:     Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/execute) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": true
+}
+
+[47.592][FINE]:     Command received (/session/fe2d421dfe85371a84648f600cf5bc95/element) with params {
+   "using": "id",
+   "value": "ww"
+}
+
+[47.592][FINER]:    Waiting for all views to stop loading...
+[47.593][FINER]:    Done waiting for all views to stop loading
+[47.604][FINER]:    Waiting for all views to stop loading...
+[47.604][FINER]:    Done waiting for all views to stop loading
+[47.604][FINE]:     Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/element) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1426056811433"
+   }
+}
+
+[47.607][FINE]:     Command received (/session/fe2d421dfe85371a84648f600cf5bc95/element) with params {
+   "using": "class name",
+   "value": "s_btn"
+}
+
+[47.607][FINER]:    Waiting for all views to stop loading...
+[47.608][FINER]:    Done waiting for all views to stop loading
+[47.618][FINER]:    Waiting for all views to stop loading...
+[47.618][FINER]:    Done waiting for all views to stop loading
+[47.618][FINE]:     Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/element) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1426056811434"
+   }
+}
+
+[47.622][FINE]:     Command received (/session/fe2d421dfe85371a84648f600cf5bc95/element/:wdc:1426056811433/value) with params {
+   "id": ":wdc:1426056811433",
+   "value": [ "\u5E73\u51E1\u4E4B\u8DEF" ]
+}
+
+[47.622][FINER]:    Waiting for all views to stop loading...
+[47.622][FINER]:    Done waiting for all views to stop loading
+[47.742][WARNING]:  No translation for key code. Code point: 24179
+[47.742][WARNING]:  No translation for key code. Code point: 20961
+[47.742][WARNING]:  No translation for key code. Code point: 20043
+[47.742][WARNING]:  No translation for key code. Code point: 36335
+[47.762][FINER]:    Waiting for all views to stop loading...
+[47.762][FINER]:    Done waiting for all views to stop loading
+[47.762][FINE]:     Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/element/:wdc:1426056811433/value) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[47.764][FINE]:     Command received (/session/fe2d421dfe85371a84648f600cf5bc95/element/:wdc:1426056811434/click) with params {
+   "id": ":wdc:1426056811434"
+}
+
+[47.764][FINER]:    Waiting for all views to stop loading...
+[47.764][FINER]:    Done waiting for all views to stop loading
+[47.801][FINER]:    Waiting for all views to stop loading...
+[47.802][FINER]:    Done waiting for all views to stop loading
+[47.802][FINE]:     Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/element/:wdc:1426056811434/click) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[49.803][FINE]:     Command received (/session/fe2d421dfe85371a84648f600cf5bc95/url)
+[49.803][FINER]:    Waiting for all views to stop loading...
+[52.235][FINER]:    Done waiting for all views to stop loading
+[52.242][FINER]:    Waiting for all views to stop loading...
+[52.242][FINER]:    Done waiting for all views to stop loading
+[52.242][FINE]:     Command finished (/session/fe2d421dfe85371a84648f600cf5bc95/url) with response {
+   "sessionId": "fe2d421dfe85371a84648f600cf5bc95",
+   "status": 0,
+   "value": "http://music.baidu.com/search?key=%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF"
+}
+
+[52.249][FINE]:     Command received (/session/fe2d421dfe85371a84648f600cf5bc95)
+[54.584][INFO]:     Chrome shutdown

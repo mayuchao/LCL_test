@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.baidu.selenium.listener.LogSeperateTestListener"/>
+    <listener class-name="com.baidu.selenium.listener.ErrorSpecScreenshotListener"/>
+    <listener class-name="com.baidu.selenium.autoscreenshot.AutoScreenshotListener"/>
+    <listener class-name="com.baidu.selenium.listener.SingleTestJUnitReporter"/>
+  </listeners>
+  <test name="TEST(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="CheckIn"/>
+        <exclude name="DEPRECATED"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.zhongzheng.selenium.Test.IndexTest">
+        <methods>
+          <include name="tearDownTestBase"/>
+          <include name="setUpTestBase"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- com.zhongzheng.selenium.Test.IndexTest -->
+    </classes>
+  </test> <!-- TEST(failed) -->
+</suite> <!-- Failed suite [Suite] -->
